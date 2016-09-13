@@ -2,6 +2,12 @@
 # 基于IONIC2极光推送示例
 
 
+## DEMO运行步骤
+
+1. npm install
+2. ionic serve
+
+
 ## 集成步骤   [详情](https://github.com/jpush/jpush-phonegap-plugin)
 
 通过 Cordova Plugins 安装，要求 Cordova CLI 5.0+：
@@ -13,7 +19,6 @@ cordova plugin add https://github.com/jpush/jpush-phonegap-plugin.git --variable
 或下载到本地安装：
 
 cordova plugin add Your_Plugin_Path  --variable API_KEY=your_jpush_appkey
-
 
 
 ## 实现方式
