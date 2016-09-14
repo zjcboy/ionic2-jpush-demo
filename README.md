@@ -35,10 +35,18 @@ JPush.init().then(res => { alert(res) });
 
 JPush.stopPush().then(res => { alert(res) });
 
+JPush.isPushStopped().then(res => { alert(res) });
+
 JPush.getRegistrationID().then(res => { alert(res) });
 
 JPush.resumePush().then(res => { alert(res) });
 
 JPush.resumePush().then(res => { alert(res) });
 
-JPush.setAlias(data).then(res => { alert(res) });
+JPush.setAlias(alias).then(res => { alert(res) });
+
+JPush.setTags(tags).then(res => { alert(res) });
+
+JPush.setTagsWithAlias(tags,alias).then(res => { alert(res) });
+
+JPush.getUserNotificationSettings().then(res => { alert(res) });
