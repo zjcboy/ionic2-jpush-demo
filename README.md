@@ -1,9 +1,12 @@
 ### ionic2-jpush-demo
 ## 基于IONIC2极光推送示例
 
+
 ## DEMO运行步骤
 npm install
 ionic serve
+ionic platfom add android
+ionic run android
 
 ## 集成步骤 详情
 
@@ -45,3 +48,4 @@ JPush.setTags(tags).then(res => { alert(res) });
 JPush.setTagsWithAlias(tags,alias).then(res => { alert(res) });
 
 JPush.getUserNotificationSettings().then(res => { alert(res) });
+
