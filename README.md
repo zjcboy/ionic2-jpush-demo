@@ -47,7 +47,7 @@ JPush.setTagsWithAlias(tags,alias).then(res => { alert(res) });
 
 JPush.getUserNotificationSettings().then(res => { alert(res) });
 
-[其他方法>>](http://zjcboy.com/2016/10/09/ionic2-jpush-demo)
+[查看更多>>](http://zjcboy.com/2016/10/09/ionic2-jpush-demo)
 
 
 
