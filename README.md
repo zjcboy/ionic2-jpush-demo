@@ -21,9 +21,9 @@ cordova plugin add Your_Plugin_Path --variable API_KEY=your_jpush_appkey
 
 ## 实现方式
 
-在ionic-native的基础上新增了JPUSH的调用方法
+在[ionic-native](https://github.com/driftyco/ionic-native)的基础上新增了JPUSH的调用方法
 
-目前只实现了公共API部分 详情公共 API。
+目前只实现了公共API部分 详情[公共 API](https://github.com/jpush/jpush-phonegap-plugin/blob/master/doc/Common_detail_api.md)。
 
 ## 调用方式
 
@@ -47,7 +47,7 @@ JPush.setTagsWithAlias(tags,alias).then(res => { alert(res) });
 
 JPush.getUserNotificationSettings().then(res => { alert(res) });
 
-(其他方法>>)[http://zjcboy.com/2016/10/09/ionic2-jpush-demo]
+[其他方法>>](http://zjcboy.com/2016/10/09/ionic2-jpush-demo)
 
 
 
