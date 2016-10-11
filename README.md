@@ -39,8 +39,6 @@ JPush.getRegistrationID().then(res => { alert(res) });
 
 JPush.resumePush().then(res => { alert(res) });
 
-JPush.resumePush().then(res => { alert(res) });
-
 JPush.setAlias(alias).then(res => { alert(res) });
 
 JPush.setTags(tags).then(res => { alert(res) });
@@ -49,3 +47,8 @@ JPush.setTagsWithAlias(tags,alias).then(res => { alert(res) });
 
 JPush.getUserNotificationSettings().then(res => { alert(res) });
 
+(其他方法>>)[http://zjcboy.com/2016/10/09/ionic2-jpush-demo]
+
+
+
+### 欢迎大家加入Ionic2.0 交流群 513752928
