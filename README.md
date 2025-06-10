@@ -49,5 +49,3 @@ JPush.getUserNotificationSettings().then(res => { alert(res) });
 
 [查看更多>>](http://zjcboy.com/2016/10/09/ionic2-jpush-demo)
 
-
-[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
